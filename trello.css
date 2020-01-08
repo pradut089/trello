@@ -1,0 +1,95 @@
+        #lists {
+            display: flex;            
+        }
+        body{
+            background-color: aqua;
+        }
+        #list{
+            display: flex;
+            flex-direction: row;
+            
+        }
+        
+        /* #list > div{
+            margin-left: 90px;
+            
+        } */
+        .closeBtn {
+            
+            float:right;
+            position: relative;
+        }
+        .modal {
+            /* display: none; Hidden by default */
+            position: fixed; 
+            padding-top: 50px; 
+            left: 15%;
+            
+            width: 60%; 
+            height: 70%; 
+            overflow: auto;
+            background-color:rgb(197, 218, 248);
+            border-radius: 20px;
+        }
+        .description {
+            padding-left: 20%;
+        }
+        .modal > div {
+            padding-left:20%;
+            line-height: 30px;
+        }
+        .modal > button {
+            float: right;
+        }
+        .modal > form {
+            padding-left: 20%;
+        }
+      
+        .checklistItems {
+            display: flex;
+            flex-direction: row;
+        }
+        .listname{
+            width: 20%;
+            background-color: azure;
+            margin-left: 2%;
+        }
+        .cardsName{
+            /* display: flex; */
+            margin-top: 10px;
+            padding-left:5px;
+            height: 25px;
+            background-color: white;
+            border-radius: 5px;
+        }
+        .del {
+            float:right;
+        }
+        
+        .edit {
+            float:right;
+        }
+        .list {
+            margin-left: 30px;
+            height:auto;
+        }
+        .addList {
+            margin-left: 30px;
+
+        }
+        .addCard {
+            margin-top: 20px;
+        }
+        .cards {
+                margin: 0;
+        }
+
+        .checklistItems{
+            margin-left: 10%;
+            display: flex;
+            margin-right: 10%;
+        }
+
+
+
+
